@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkentropy=self.webpackChunkentropy||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/entropy/blog","blogTitle":"Blog","authorsListPath":"/entropy/blog/authors"}')}}]);
