@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkentropy=self.webpackChunkentropy||[]).push([[6580],{8561:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/entropy/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
