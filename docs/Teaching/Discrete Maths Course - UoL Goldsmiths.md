@@ -1,6 +1,6 @@
 ---
 title: "Discrete Mathematics Course"
-description: "A brief introduction to John from SE London, UK."
+description: "Discrete Maths Course - University of London"
 sidebar_label: "Discrete Maths Course - UoL"
 sidebar_position: 1
 

@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Transform Your Technical Docs into a Business Asset',
+  title: 'Entropy',
   // tagline: 'Because Knowledge Shouldn&apos;t Be Hidden',
   tagline: 'Because Knowledge Shouldn\'t Be Hidden',
 
 
-  favicon: 'img/favicon.ico',
+  favicon: 'img/entropy-76424-200.png',
 
   // Set the production url of your site here
   url: 'https://aalfalah.github.io/',
@@ -47,6 +47,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'aalfalah', // Usually your GitHub org/user name.
   projectName: 'entropy', // Usually your repo name.
+  trailingSlash: false,  // add trailingSlash as suggested in the warning
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -102,7 +104,7 @@ const config = {
         title: 'Entropy',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/entropy.png',
         },
         items: [
           // {
@@ -151,34 +153,34 @@ const config = {
             title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Linkedin',
+                href: 'https://linkedin.com/in/alfalah',
+              }
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/aalfalah/entropy',
-              },
-            ],
-          },
+          }
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/aalfalah/entropy',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Entropy Ltd`,
+        copyright: `Copyright © ${new Date().getFullYear()} Entropy`,
       },
       prism: {
         theme: prismThemes.github,
